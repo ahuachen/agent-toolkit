@@ -77,9 +77,9 @@ graph from a manifest is fact; one inferred from imports is not.
 spend, so recommending against the expensive part is one of the answers it can give. Where the map
 shows a handful of files with no domain or service layer, or a repo that is configuration and
 infrastructure rather than business logic, Tier 1 will find little the map hasn't already shown —
-say that plainly, and offer to write the architecture note and glossary straight from the map
-instead. Nothing else changes: the phase sequence runs as normal, the ledger records the depth as
-**map only**, and the user decides. They invoked the skill deliberately, so recommend, don't refuse.
+say that plainly, and offer to write the architecture note straight from the map instead. Nothing
+else changes: the phase sequence runs as normal, the ledger records the depth as **map only**, and
+the user decides. They invoked the skill deliberately, so recommend, don't refuse.
 
 ### Name the areas, then choose an order
 

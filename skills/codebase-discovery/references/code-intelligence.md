@@ -63,18 +63,11 @@ the two modes complement each other rather than competing.
 
 ### 1. Install the language server(s) for your repo
 
-Install only what your target codebase needs. Examples:
+Install only what your target codebase needs — one of these, not all:
 
-```bash
-# Go
-go install golang.org/x/tools/gopls@latest
-
-# TypeScript / JavaScript
-npm install -g typescript-language-server typescript
-
-# Python
-pip install python-lsp-server
-```
+- **Go** — `go install golang.org/x/tools/gopls@latest`
+- **TypeScript / JavaScript** — `npm install -g typescript-language-server typescript`
+- **Python** — `pip install python-lsp-server`
 
 Verify each is on your `PATH` (e.g. `gopls version`). **If the language server isn't installed and
 runnable, the LSP option cannot work** — this is the most common cause of "LSP unavailable".
